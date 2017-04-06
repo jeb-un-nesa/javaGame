@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javagamef.SceneLevelController">
+   <children>
+      <ImageView fitHeight="297.0" fitWidth="407.0" layoutX="300.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="322.0" fitWidth="306.0" layoutX="8.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@iamges3.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="level1" layoutX="231.0" layoutY="55.0" mnemonicParsing="false" onAction="#handle_action_level1" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: red;" text="Level1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_level2" layoutX="231.0" layoutY="140.0" mnemonicParsing="false" onAction="#handle_acction_level2" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: Yellow;" text="Level2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_level3" layoutX="231.0" layoutY="227.0" mnemonicParsing="false" onAction="#handle_action_level3" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: lightGreen;" text="Level3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_back" layoutX="231.0" layoutY="312.0" mnemonicParsing="false" onAction="#handle_acction_back" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: pink;" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
